@@ -8,6 +8,7 @@ import {
   Keyboard,
   TouchableWithoutFeedback,
   Alert,
+  Text
 } from "react-native";
 import Card from "../components/Card";
 import Input from "../components/Input";
@@ -59,7 +60,7 @@ const StartGameScreen = ({startGame}) => {
       <View style={styles.screen}>
         <Text style={styles.title}>Start a New Game!</Text>
         <Card style={styles.inputContainer}>
-          <Text>Select a Number</Text>
+          <Text style={{fontFamily:'open-sans'}}>Select a Number</Text>
           <Input
             autoCapitalize="none"
             blurOnSubmit
@@ -102,6 +103,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     marginVertical: 10,
+    fontFamily:'open-sans-bold'
   },
   inputContainer: {
     width: 300,
