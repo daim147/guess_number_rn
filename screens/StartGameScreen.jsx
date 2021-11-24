@@ -8,7 +8,6 @@ import {
   Keyboard,
   TouchableWithoutFeedback,
   Alert,
-  Text
 } from "react-native";
 import Card from "../components/Card";
 import Input from "../components/Input";
