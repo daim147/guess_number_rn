@@ -12,7 +12,7 @@ const generateRandomNumber = (min, max, exclude)=>{
     }
 }
 const GameScreen = (props) => {
-    const [currentGuess, setCurrentGuess] = useState(generateRandomNumber())
+    const [currentGuess, setCurrentGuess] = useState(generateRandomNumber(1,100, props.userChoice))
     return (
         <View>
             <Text>Game Screen</Text>
