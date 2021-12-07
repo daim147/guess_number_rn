@@ -97,7 +97,6 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 10,
     alignItems: "center",
-    // backgroundColor:'red',
   },
   title: {
     fontSize: 20,
