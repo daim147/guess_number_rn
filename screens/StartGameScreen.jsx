@@ -126,7 +126,6 @@ const styles = StyleSheet.create({
   card:{
     marginTop:20,
     width: '60%',
-    // justifyContent:'center'
     alignItems:'center'
   }
 });
