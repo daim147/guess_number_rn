@@ -45,7 +45,7 @@ export default function App() {
   
   return (
     <View style={styles.screen}>
-      <Header title="Guess My Number"/>
+      <Header title="Guess Computer's Number"/>
       {content}
     </View>
   );
