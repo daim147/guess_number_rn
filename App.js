@@ -42,6 +42,8 @@ export default function App() {
   } else if (guessRounds > 0){
     content= <GameOverScreen rounds = {guessRounds } userNumber={userNumber} configureNewGameHandler={configureNewGameHandler}/>
   }
+  let content= <GameOverScreen rounds = {1 } userNumber={1} configureNewGameHandler={configureNewGameHandler}/>
+
   
   return (
     <View style={styles.screen}>
@@ -50,7 +52,6 @@ export default function App() {
     </View>
   );
 }
-
 
 const styles = StyleSheet.create({
   screen:{
